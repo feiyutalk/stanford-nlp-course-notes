@@ -51,7 +51,7 @@
 
    - **整合**: 这一步就是对上述所有路径求最小值(或者最大值)
 
-所有最后的转移方程如下:
+所以最后的转移方程如下:
 
 ![](https://latex.codecogs.com/gif.latex?D%5Bi%5D%5Bj%5D%20%3D%20min%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20D%28i-1%2Cj%29%20&plus;%201%5C%5C%20D%28i%2C%20j-1%29%20&plus;%201%5C%5C%20D%28i-1%2C%20j-1%29%20&plus;%200%20%28X%28i%29%20%3D%3D%20Y%28j%29%29%20or%20D%28i-1%2Cj-1%29%20&plus;%202%28X%28i%29%20%21%3D%20Y%28j%29%29%20%5Cend%7Bmatrix%7D%5Cright.)
 
